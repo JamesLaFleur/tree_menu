@@ -1,6 +1,6 @@
 services:
   type:web
-  name: menu
+  name: tree_menu
   buildCommand: "./build.sh"
   env: python
-  startCommand: "gunicorn menu.wsgi:application"
+  startCommand: "gunicorn tree_menu.wsgi:application"
