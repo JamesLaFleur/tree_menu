@@ -10,7 +10,7 @@ distlib==0.3.7
 Django==3.2.23
 dulwich==0.21.6
 fastjsonschema==2.18.1
-filelock==3.13.1
+filelock==3.12.2
 gunicorn==21.2.0
 idna==3.4
 importlib-metadata==6.8.0
