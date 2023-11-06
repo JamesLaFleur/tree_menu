@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} Index page {% endblock %}
+
+{% load treemenu_tags %}
+{% block content %}
+<h1>Welcome to the Tree page</h1>
+{% if menu %}
+    {% draw_menu 'root' %}
+    {% draw_menu 'second_root' %}
+{% else %}
+    <p>Menu not found</p>
+{% endif %}
+
+{% endblock %}

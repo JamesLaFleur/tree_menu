@@ -1,0 +1,15 @@
+{% for item in items %}
+    <li class="nav__item">
+        <a class="nav__link {% if item.child_items %}nav__link_active{% endif %}" href="?{{ other_querystring }}&{{ menu }}={{ item.id }} {% if item.child_items %} {% endif %}">{{ item.title }}</a>
+    </li>
+        
+    {% with item.child_items as children %}
+        {% if children %}
+        <li class="nav__item">
+            <ul class="nav__list nav__list_inner">
+                {% include 'menu_list.html' with items=children menu=menu other_querystring=other_querystring %}                    
+            </ul>            
+        </li>
+        {% endif %}
+    {% endwith %}
+{% endfor %}
