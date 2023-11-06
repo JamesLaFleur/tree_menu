@@ -20,7 +20,7 @@ keyring==24.1.1
 msgpack==1.0.5
 packaging==23.1
 pexpect==4.7.0
-pkginfo==1.8.6
+pkginfo==1.9.6
 platformdirs==3.10.0
 poetry==1.7.0
 poetry-core==1.8.1
