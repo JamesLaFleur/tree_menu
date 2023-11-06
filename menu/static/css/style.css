@@ -10,12 +10,6 @@ a, a:visited {
     text-decoration: none;
 }
 
-h1 {
-    margin: 24px;
-    padding: 0;
-    color: #413F3D;
-}
-
 .nav {
     padding: 16px;
     background-color: #f2f1ef;
