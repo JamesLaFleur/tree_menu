@@ -16,8 +16,7 @@ idna==3.4
 importlib-metadata==6.7.0
 installer==0.7.0
 jaraco.classes==3.2.3
-keyring==24.2.0
-more-itertools==10.1.0
+keyring==24.1.1
 msgpack==1.0.7
 packaging==23.2
 pexpect==4.8.0
@@ -40,4 +39,3 @@ trove-classifiers==2023.10.18
 tzdata==2023.3
 urllib3==1.26.12
 virtualenv==20.24.6
-zipp==3.17.0
